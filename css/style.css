@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+}
+.hero-image {
+  background-image:  url("https://res.cloudinary.com/dmz79kgf0/image/upload/v1531477972/background_image_soz3va.png");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+   .hero-image{
+    <img src="https://res.cloudinary.com/dmz79kgf0/image/upload/v1531477972/background_image_soz3va.png" alt="">
+      }
+      
+      .column {
+        float: left;
+        width: 20%;
+      }
+      
+      .row {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .top{
+          color: #F4F1F2;
+      }
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #484A5D;
+        color: white;
+        text-align: left;
+      }
